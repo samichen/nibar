@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <!-- 1. 官方環境與數位守護圈 (System Orbit - 象徵計畫的完整性與數位學習環境) -->
+  <circle cx="60" cy="60" r="52" fill="none" stroke="#A8DADC" stroke-width="2" stroke-dasharray="8 8" opacity="0.6"/>
+
+  <!-- 2. 導師之手 (Mentor Arc - 外層：穩定、權威與無私的全面支持) -->
+  <path d="M 22 55 C 22 105, 50 110, 60 110 C 70 110, 98 105, 98 55" fill="none" stroke="#1D3557" stroke-width="10" stroke-linecap="round"/>
+  <!-- 輔導專家的行動節點 -->
+  <circle cx="22" cy="55" r="6" fill="#E63946" />
+  <circle cx="98" cy="55" r="6" fill="#E63946" />
+
+  <!-- 3. 學習者之手 (Mentee Arc - 內層：成長、跟隨與被安穩守護) -->
+  <path d="M 38 65 C 38 92, 50 95, 60 95 C 70 95, 82 92, 82 65" fill="none" stroke="#457B9D" stroke-width="8" stroke-linecap="round"/>
+  <!-- 教師/學生的成長節點 -->
+  <circle cx="38" cy="65" r="5" fill="#F4A261" />
+  <circle cx="82" cy="65" r="5" fill="#F4A261" />
+
+  <!-- 4. 數位學習成功的核心星芒 (Digital Spark - 象徵賦能與教學創新) -->
+  <path d="M 60 14 C 60 28, 70 32, 80 32 C 70 32, 60 36, 60 50 C 60 36, 50 32, 40 32 C 50 32, 60 28, 60 14 Z" fill="#E9C46A" />
+
+  <!-- 5. 點綴：靈感與擴散的數位節點 (Inspiration Nodes) -->
+  <circle cx="85" cy="22" r="3.5" fill="#F4A261" />
+  <circle cx="35" cy="24" r="2.5" fill="#457B9D" />
+</svg>
