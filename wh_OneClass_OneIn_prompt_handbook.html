@@ -164,8 +164,7 @@ footer a{color:var(--cy)}
     <a href="#s1">五步模組</a>
     <a href="#s2">各領域找碴</a>
     <a href="#s3">落地工具</a>
-    <a href="#s4">圖像提示詞</a>
-    <a href="#s5">三條界線</a>
+    <a href="#s4">三條界線</a>
   </div>
 </nav>
 
@@ -178,13 +177,13 @@ footer a{color:var(--cy)}
   <h2><span class="n">H01</span>國文：三層提問</h2>
   <p class="lead">先讓 AI 產生問題，再由學生用文本證據完成解讀。</p>
   <div class="act">
-    <div class="head"><span class="id">H01</span><h3>〈燭之武退秦師〉：從摘要走向文本論證</h3><span class="when">AI角色與功能簡報第 4 頁</span></div>
+    <div class="head"><span class="id">H01</span><h3>〈燭之武退秦師〉：從摘要走向文本論證</h3><span class="when">AI角色與功能簡報第 5 頁</span></div>
     <div class="meta">
       <div><b>科目</b>高中國文</div>
       <div><b>AI 的任務</b>產生三層問題，不代寫答案</div>
       <div><b>學生產物</b>我的解讀＋課文依據＋說明</div>
     </div>
-    <div class="say"><b>講這句：</b>「注意它交出來的是三個<b>問題</b>，不是三段答案。學生要做的事一項都沒有被拿走。」</div>
+    <div class="say">「注意它交出來的是三個<b>問題</b>，不是三段答案。學生要做的事一項都沒有被拿走。」</div>
     <div class="bar"><span>PROMPT｜貼上課文（網址）後即可執行</span><button class="cp" type="button">複製提示詞</button></div>
 <pre>你是高中國文備課協作者。單元是〈燭之武退秦師〉，學生已讀課文。
 目標是用文本證據分析說服策略。
@@ -219,13 +218,13 @@ https://docs.google.com/document/d/1nRYn1lSDZlC16Jhsf6tSwjFMqh7UMS0-MQCH09A82uQ/
   <h2><span class="n">H02</span>英文：修稿追問</h2>
   <p class="lead">AI 只指出一個論證缺口，修改與說明仍由學生完成。</p>
   <div class="act">
-    <div class="head"><span class="id">H02</span><h3>AI 只問一個問題，學生自己修訂</h3><span class="when">AI角色與功能簡報第 5 頁</span></div>
+    <div class="head"><span class="id">H02</span><h3>AI 只問一個問題，學生自己修訂</h3><span class="when">AI角色與功能簡報第 6 頁</span></div>
     <div class="meta">
       <div><b>科目</b>高中英文議論寫作</div>
       <div><b>AI 的任務</b>找一處、問一句、停下來</div>
       <div><b>學生產物</b>初稿、修訂、修改理由</div>
     </div>
-    <div class="say"><b>講這句：</b>「關鍵在最後那句『等待我修改』。少了它，AI 就會直接把作文重寫一遍。」</div>
+    <div class="say">「關鍵在最後那句『等待我修改』。少了它，AI 就會直接把作文重寫一遍。」</div>
     <div class="bar"><span>PROMPT｜含模擬初稿，可直接執行</span><button class="cp" type="button">複製提示詞</button></div>
 <pre>你是高中英文寫作的提問夥伴。
 請先找一個論證不清楚或過度概括的位置，用一個英文問題提醒我，等待我修改。
@@ -468,7 +467,7 @@ AI always gives correct answers, so it should do our homework.
 
   <h3><span class="tag">步驟 5</span>揭露：AI 使用聲明的欄位規格</h3>
   <div class="pw">
-    <div class="why"><b>語氣是關鍵：</b>表單寫得像自首書，學生就會少報。要讓「說清楚怎麼用」本身是拿分的地方。</div>
+    <div class="why"><b>語氣是關鍵：</b>表單寫得像自首文件，學生就會少報。要讓「說清楚怎麼用」本身是拿分的地方。</div>
     <div class="bar"><span>PROMPT</span><button class="cp" type="button">複製提示詞</button></div>
     <pre>你是一位熟悉臺灣高中學習歷程檔案制度的評量專家。
 
@@ -737,107 +736,7 @@ Output the feedback in Traditional Chinese, keep the conversation in English.</p
 
 <!-- ================= S4 ================= -->
 <section id="s4">
-  <h2><span class="n">SECTION 4</span>圖像生成提示詞</h2>
-  <p class="lead">做簡報配圖用。<b>先複製共用風格，再接一則主題提示詞。</b></p>
-
-  <div class="note"><b>三個鐵則：</b>①一律要求「不要有文字」，中文字生成幾乎必錯，文字用簡報軟體疊上去。②同一份簡報的風格詞必須逐字一致。③軟體介面一律自己截圖，不要生成。</div>
-
-  <h3><span class="tag cy">共用風格</span>每一則圖像提示詞前面都要先貼這段</h3>
-  <div class="pw">
-    <div class="bar"><span>STYLE BLOCK</span><button class="cp" type="button">複製提示詞</button></div>
-    <pre>【共用風格】
-扁平向量插畫風格，乾淨簡潔，教學示意用途。
-主色深藍 #12263A，強調青色 #0E9AA7，重點琥珀 #D98A2B，背景淺灰白 #F4F7F9。
-線條粗細一致，無漸層雜訊，留白充足。16:9 橫式。
-【不要】：不要出現任何文字、字母或標籤、不要逼真照片風、不要浮水印、
-不要雜亂背景、不要 3D 光影、不要卡通誇張表情。</pre>
-  </div>
-
-  <h3><span class="tag am">圖 1</span>五步模組路徑（封面用）</h3>
-  <div class="pw">
-    <div class="bar"><span>PROMPT</span><button class="cp" type="button">複製提示詞</button></div>
-    <pre>一條由左至右的水平路徑，路徑上等距排列五個圓形節點，
-節點內依序是：一個錨、一顆發芽的種子、一支放大鏡、
-一雙手捧著完成的物件、一張攤開的紙。
-路徑兩側有幾位教師的簡化剪影，姿態是觀看與思考。
-深藍背景，路徑與節點以青色與琥珀色描邊。畫面不要有任何文字。</pre>
-  </div>
-
-  <h3><span class="tag am">圖 2</span>找碴主視覺（最重要的一張）</h3>
-  <div class="pw">
-    <div class="why"><b>要解決什麼：</b>讓「學生用 AI」從威脅變成教材，這張圖要撐住整場的轉折。</div>
-    <div class="bar"><span>PROMPT</span><button class="cp" type="button">複製提示詞</button></div>
-    <pre>一位學生手持放大鏡，正在檢視一整片懸浮的方形資訊卡。
-資訊卡內只有抽象的橫線紋理，不是可讀的文字。
-放大鏡照到的三張卡片呈琥珀色並微微發亮，其餘卡片是淡灰色。
-學生的表情是專注與發現，身體前傾。
-背景有一個柔和的機器人輪廓，姿態是遞出卡片而不是壓迫。
-畫面不要有任何文字或字母。</pre>
-  </div>
-
-  <h3><span class="tag am">圖 3</span>工具會過期，模組不會（左右對照）</h3>
-  <div class="pw">
-    <div class="bar"><span>PROMPT</span><button class="cp" type="button">複製提示詞</button></div>
-    <pre>一張左右對照的示意圖，中間有一條垂直細分隔線。
-左半：三個不同形狀的工具方塊上下堆疊，每一個都被打上叉，
-　　　旁邊有一個循環箭頭表示反覆更換，色調偏灰。
-右半：一條由五個節點串成的穩定橫向路徑，節點形狀一致，
-　　　路徑下方有一個工具方塊可抽換的插槽，色調用青色與琥珀色。
-畫面不要有任何文字。</pre>
-  </div>
-
-  <h3><span class="tag am">圖 4</span>產出與揭露（左右對照）</h3>
-  <div class="pw">
-    <div class="bar"><span>PROMPT</span><button class="cp" type="button">複製提示詞</button></div>
-    <pre>一張左右對照的示意圖，中間有一條垂直細分隔線。
-左半：一個螢幕外框與一朵雲的符號，色調偏冷、飽和度低。
-右半：一支麥克風、一個燒杯、一台相機、一雙正在組裝物件的手，
-　　　色調明顯較溫暖飽和，使用琥珀與青色。
-右半的元素略大於左半，形成重量差。畫面不要有任何文字。</pre>
-  </div>
-
-  <h3><span class="tag am">圖 5</span>文華四大班群</h3>
-  <div class="pw">
-    <div class="why"><b>注意：</b>四條路徑必須等寬等重，不可讓任何一個班群看起來比較「高級」。</div>
-    <div class="bar"><span>PROMPT</span><button class="cp" type="button">複製提示詞</button></div>
-    <pre>四條由畫面下方匯聚、再向上分開的路徑，分別通往四個象徵圖示：
-一本書與天平、一個折線圖與手提箱、一個齒輪與電路板、一片葉子與聽診器。
-路徑起點是一群高中生的簡化剪影。
-四條路徑用四種不同的強調色，粗細相同、地位相等，不做高低差。
-畫面不要有任何文字。</pre>
-  </div>
-
-  <h3><span class="tag am">圖 6</span>三個月推進節奏</h3>
-  <div class="pw">
-    <div class="bar"><span>PROMPT</span><button class="cp" type="button">複製提示詞</button></div>
-    <pre>三個由低到高的弧形台階，第一階站著一位教師剪影，
-第二階三位，第三階一群人。台階右側有一株隨著階梯長高的植物。
-色調從青色漸進到琥珀色，整體氛圍輕盈，不要有攀爬吃力的姿態。
-畫面不要有任何文字。</pre>
-  </div>
-
-  <h3><span class="tag cy">備援</span>40 秒 Demo 錄影腳本</h3>
-  <div class="pw">
-    <div class="why"><b>為什麼要錄：</b>校園網路與登入是研習最常見的翻車點。錄好放桌面，就永遠不會冷場。</div>
-    <div class="bar"><span>PROMPT</span><button class="cp" type="button">複製提示詞</button></div>
-    <pre>你是一位教學影片腳本編劇。
-
-請為一段 40 秒的螢幕錄影寫腳本，內容是【分層題組生成／藏錯解題，擇一】。
-
-【輸出格式】
-表格：秒數區間｜畫面上發生什麼｜講者旁白（逐字稿，口語）｜這一刻要讓觀眾記住什麼
-
-【限制】
-1. 旁白總字數不超過 130 字。
-2. 前 5 秒必須先出現結果的一瞥，不可從空白畫面開始。
-3. 不介紹工具介面，只講教學決策。
-4. 結尾是一個問句，接回現場。</pre>
-  </div>
-</section>
-
-<!-- ================= S5 ================= -->
-<section id="s5">
-  <h2><span class="n">SECTION 5</span>三條界線</h2>
+  <h2><span class="n">SECTION 4</span>三條界線</h2>
   <p class="lead">守住了，出事的時候學校說得清楚；沒守住，一次就夠讓整個推動停下來。</p>
 
   <div class="grid">
@@ -846,7 +745,7 @@ Output the feedback in Traditional Chinese, keep the conversation in English.</p
     <div class="card red"><b>評分</b>規準由教師訂、分數由教師給。AI 可以整理歷程，不可以決定等第。</div>
   </div>
 
-  <div class="warn"><b>最常出事的兩個地方：</b>社會領域引錯法規條號與統計數字；輔導紀錄被貼進對話框造成個資外流。第 1 步與第 5 步不給 AI，就可以守住這三條線。</div>
+  <div class="warn"><b>最常出問題的兩個地方：</b>社會領域引錯法規條號與統計數字；輔導紀錄被貼進對話框造成個資外流。第 1 步與第 5 步不給 AI，就可以守住這三條線。</div>
 
   <h3>回到領域會議，想想幾件事</h3>
   <div class="tblwrap">
@@ -862,7 +761,7 @@ Output the feedback in Traditional Chinese, keep the conversation in English.</p
   </table>
   </div>
 
-  <div class="note"><b>示範單元說明：</b>本手冊各領域採高中部定必修的共同單元；文華校訂必修與多元選修的正式課名，請以學校教學組提供的課程計畫書為準。</div>
+  <div class="note"><b>示範單元說明：</b>本手冊各領域採高中部定必修的共同單元。</div>
 </section>
 
 </main>
@@ -873,7 +772,7 @@ Output the feedback in Traditional Chinese, keep the conversation in English.</p
   </div>
 </footer>
 
-<p class="site-copy">&copy; 2026 Dr.SaMi <a href="https://sami.nibar.net" target="SaMi" rel="noopener">陳世銘</a>（samichen@gmail.com）</p>
+<p class="site-copy">&copy; 2026 Dr.SaMi <a href="https://sami.nibar.net" target="SaMi" rel="noopener">陳世銘</a>（samichen@gmail.com）｜ChatGPT協作</p>
 
 <button class="toTop" type="button" id="toTop" aria-label="回到最上方">↑</button>
 
